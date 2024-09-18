@@ -16,7 +16,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
 public class Crypto {
-    public static String uuid = "7d6df8b4-07bc-44fe-9375-630bcfefcf9f";
+    public static String uuid = "7d6df8bhehehehe9f";
     public static RSAPublicKey createPublickey(String str) {
         try {
             return (RSAPublicKey) KeyFactory.getInstance("RSA").generatePublic(new X509EncodedKeySpec(Base64.getDecoder().decode(str.replace("-----BEGIN PUBLIC KEY-----", "").replace("-----END PUBLIC KEY-----", "").replace("\n",""))));
@@ -30,12 +30,12 @@ public class Crypto {
         try{
             StringBuilder sb = new StringBuilder();
             sb.append("-----BEGIN PUBLIC KEY-----");
-            sb.append("MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzwWLE1xZi3SYAjeDsB3F");
+            sb.append("MIIheheheheG9w0BAQEFheheheheCAQEAzwWLE1xZi3SYAjeDsB3F");
             sb.append("FAQNhCDZYNfc+JZl6Sys9SnNiP0BDBXrwuDJY5PQ+pFwGygFvOYGYH5HIXDoT0qg");
-            sb.append("PrbvoSIfUCpOBpzKBkEMvS69S4kpun9d3WdpoFJssH67Ls491fbqTII7S3NXASuw");
-            sb.append("OO4AQNlj19ftrXaOSIhwqyepxOh2sXGPY+EGM0I1/PFro9tl+pyOeaTtD5aJZJO5");
-            sb.append("aoEJAxmCt35CrmQbHd11A1B2pmrC3gqwOo+PPahyXz/Re5JBbh73ND67YEegtA3U");
-            sb.append("LT33BogBq1gEr1q53W1WatacjzBWRAXw9HrHRHzM89gC+I91b8YpF/oyDZttagtn");
+            sb.append("PrbvoSIfUCpOBpzKBkhgjhghjghjhehehehehehehessH67Ls491fbqTII7S3NXASuw");
+            sb.append("OO4AQNlj19ftrXaOhehehehepyOeaTtD5aJZJO5");
+            sb.append("aoEJAxmCt35CrmQbHd1hehehehe+PPahyXz/Re5JBbh73ND67YEegtA3U");
+            sb.append("LT33BogBq1gEr1q53W1hehehehe1b8YpF/oyDZttagtn");
             sb.append("nQIDAQAB");
             sb.append("-----END PUBLIC KEY-----");
             PublicKey pbkey = createPublickey(sb.toString());
